@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+
+    <title>3Z Filmes</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Barra de navegação superior -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+            <div class="container-fluid">
+              <a href="index.html"><img class="navbar-brand" src="img/icon.png" alt="logo" id="logo"></a> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav" id="navbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          
+                            <a class="nav-link active" aria-current="page" href="index.html" style="color: white; font-size: 20px;"><b>Lançamentos  </b></a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="index.html" style="color: white; font-size: 20px;"><b> destaque </b></a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="index.html" style="color: white; font-size: 20px;"><b>Avaliações </b></a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="index.html" style="color: white; font-size: 20px;"><b>Entrevistas  </b></a>
+                        </li>
+                        <li class="nav-item">
+                            
+                            <a class="nav-link" href="index.html" style="color: white; font-size: 20px;"><b>Novidades  </b></a>
+                        </li>
+                    </ul>
+
+                        <input class="form-control me-2 barraPesquisa" type="text" placeholder="Pesquisar "aria-label="Search"id="pesquisa">                   
+                       <button class="btn btn-outline-light" type="submit"onclick=codFilme() >Pesquisar</button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Bloco de Lançamento -->
+        <div class="container main">
+            <h2 class="lancamentos" id="lancamentos">Lançamentos</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                       
+                    </div>
+
+                    <!-- Filme 1 -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row" style="margin-bottom: 70px;">
+                                <div class="col-xs-12 col-12 col-md-6" style="min-height: 294px;">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X23XCFgdh2M"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-12 col-md-6" >
+                                    <p1 height="100% ">
+                                        <h3>Doutor Estranho no Multiverso da Loucura </h3> 
+                                       <!--sinopse-->
+                                       <p>O aguardado filme trata da jornada do Doutor Estranho rumo ao desconhecido. Além de receber ajuda de novos 
+                                           aliados místicos e outros já conhecidos do público, o personagem atravessa as realidades alternativas incompreensíveis e 
+                                           perigosas do Multiverso para enfrentar um novo e misterioso adversário.</p>
+                                    </p1>
+                                    <p></p>
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Diretor: Sam Raimi
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Roteiro: Michael Waldron, Jade Bartlett
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Elenco: Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor, Benedict Wong, Xochitl Gomez, Michael Stuhlbarg, Rachel McAdams.  
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        Estreia: 5 de maio de 2022
+                                    </div>
+
+                                    <div class="col-12">
+                                        Avaliação: ★★★★☆
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filme 2 -->
+
+                        <div class="carousel-item">
+                            <div class="row" style="margin-bottom: 70px;">
+                                <div class="col-xs-12 col-12 col-md-6" style="min-height: 294px;">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ae6w0-kZ3-M"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                
+                                <div class="col-xs-12 col-12 col-md-6">
+                                    <p1 height="100% ">
+                                    <h3>Homem aranha: Sem volta pra casa </h3> 
+                                   <!--sinopse-->
+                                   <p>O relacionamento entre Peter Parker e Mary Jane parece estar dando certo, mas outros problemas começam a surgir. A roupa de Homem-Aranha torna-se preta e acaba controlando Peter - apesar de aumentar seus poderes, ela revela e amplia o lado obscuro de sua personalidade. Com isso, os vilões Venom e Homem-Areia tentam destruir o herói.</p>
+                                </p1>
+                                    
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Diretor: Jon Watts
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Roteiro: Erik Sommers, Chris McKenna
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Elenco:Tom Holland, Tobey Maguire, Zendaya, Andrew Garfield, Marisa Tomei, Willem Dafoe, Jacob Batalon, Benedict Cumberbatch
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        Estreia: 16 de dezembro de 2021
+                                    </div>
+
+                                    <div class="col-12">
+                                        Avaliação:★★★★★
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filme 3 -->
+
+                        <div class="carousel-item">
+                            <div class="row" style="margin-bottom: 70px;">
+                                <div class="col-xs-12 col-12 col-md-6" style="min-height: 294px;">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GFvupyiNEz0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-12 col-md-6">
+                                    <p1 height="100% ">
+                                        <h3>Sem Saída</h3> 
+                                       <!--sinopse-->
+                                       <p>Darby Thorne está viajando devido a uma emergência familiar, mas fica presa em uma nevasca e é forçada a se abrigar numa área de descanso na estrada com um grupo de desconhecidos. Ao topar com uma garota sequestrada numa van, ela encara uma terrível luta de vida ou morte para descobrir quem é o sequestrador.</p>
+                                    </p1>
+                                   
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Diretor: Damien Power
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Roteiro: Andrew Barrer
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Elenco: Havana Rose Liu, Dennis Haysbert, Danny Ramirez, Dale Dickey, David Rysdahl, Mila Harris, Benedict Wall, Kirsty Hamilton, Hweiling Ow, Lisa Zhang.
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        Estreia: 25 de fevereiro de 2022
+                                    </div>
+
+                                    <div class="col-12">
+                                        Avaliação: ★★★☆☆
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filme 4 -->
+
+                        <div class="carousel-item">
+                            <div class="row" style="margin-bottom: 70px;">
+                                <div class="col-xs-12 col-12 col-md-6" style="min-height: 294px;">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jDwuNFfGj9Q"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-12 col-md-6">
+                                    <p1 height="100% ">
+                                        <h3>Hotel Transilvânia: Transformonstrão </h3> 
+                                       <!--sinopse-->
+                                       <p>Quando a misteriosa invenção de Van Helsing dá errado, Drac e seus amigos são transformados em humanos, e Johnny se torna um monstro! Em seus novos corpos incompatíveis, Drac e Johnny devem se unir para encontrar uma cura. Com a ajuda de Mavis e de Drac Pack, eles precisam encontrar uma maneira de reverter suas transformações antes que se tornem permanentes.</p>
+                                    </p1>
+                                    <p></p>
+                                    <div class="row ">
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Diretor: Derek Drymon, Jennifer Kluska
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Roteiro: Genndy Tartakovsky, Amos Vernon, Nunzio Randazzo
+                                        </div>
+
+                                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4">
+                                            Elenco: Andy Samberg, Selena Gomez, Kathryn Hahn
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        Estreia: 25 de fevereiro de 2022
+                                    </div>
+
+                                    <div class="col-12">
+                                        Avaliação:★★★★☆
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bloco de Destaque -->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="destaques" id="destaques">Em destaque</h2>
+                </div>
+                <div class="col-6">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="divFilmes">
+               
+            </div>
+        </div>
+     
+               
+
+        <!-- Bloco de Entrevistas -->
+        <div class="container">
+            <h2 class="entrevistas" >Entrevistas</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/G61QhQjsvpw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oMkmjg-qZRk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-4">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Jg1gJKZwpPk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container"id="entrevistas">
+            <div class="row">
+                <div class="col-4">
+                    <p><b>Filme:</b>Vingadores Ultimato<br>
+                        <b>Diretor:</b>Anthony Russo, Joe Russo<br>
+                        <b>Roteiro:</b>Stephen McFeely, Christopher Markus<br>
+                        <b>Estreia:</b>25 de abril de 2019
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b>The Batman<br>
+                        <b>Diretor:</b> Matt Reeves<br>
+                        <b>Roteiro:</b> Matt Reeves, Peter Craig<br>
+                        <b>Estreia:</b> 3 de março de 2022 
+                    </p>
+                    </p>
+                </div>
+                <div class="col-4">
+                    <p><b>Filme:</b>Duna<br>
+                        <b>Diretor:</b>Denis Villeneuve<br>
+                        <b>Roteiro:</b>Denis Villeneuve, Jon Spaihts, Eric Roth<br>
+                        <b>Estreia:</b> 21 de outubro de 2021
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bloco de Novidades -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="novidades" >Em breve</h2>
+                    <div class="container">
+                        <div class="row"id="novidades" >
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>   
+                    
+           
+    </div>
+    </main>
+
+    <!-- Rodapé -->
+    <div class="footer-basic">
+        <footer>
+          <div class="social"><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i
+                class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-twitter"></i></a></div>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="principal.html">Página principal</a></li>
+            <li class="list-inline-item"><a href="#">Sobre nós</a></li>
+            <li class="list-inline-item"><a href="#">Termos de uso</a></li>
+            <li class="list-inline-item"><a href="#">Politica de privacidade</a></li>
+          </ul>
+          <p class="copyright">3ZFilmes™ © 2022</p>
+        </footer>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+        <script src="app.js"></script>
+    
+        <script src="filme.js"></script>
+        
+        <script src="novidades.js"></script>
+
+        
+</body>
+
+</html>

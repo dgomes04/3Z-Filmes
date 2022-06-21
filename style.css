@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background: #000000;
+}
+
+main {
+    background: #000000;
+}
+
+h2 {
+    color: white;
+}
+
+h6 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+a {
+    font-size: large;
+    margin-block: -5px;
+}
+
+p {
+    color: white;
+}
+
+p.card-text {
+    color: black;
+    align-items: center;
+    text-align: center;
+}
+
+.header nav{
+    background-color: #000000 !important;
+    
+}
+
+
+.footer img{
+    padding-left: 20px;
+    max-width: 100%;
+}
+
+
+
+.header a {
+    color: white ;
+}
+
+.header a:hover{
+    color: #721c55;
+}
+
+
+
+
+.container {
+    text-align: justify;
+}
+
+.carousel-item {
+    color: white;
+    font-size: 14px;
+}
+
+.carousel-indicators {
+    top: 90%;
+}
+
+.container-info {
+    margin-right: 18%;
+    margin-bottom: 10%;
+}
+
+.footer {
+    background-color: #000000 ; 
+
+}
+#sobre h1{
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+.card{
+    background-color: #000000 ;
+}
+.card b{
+    color: white;
+}
+.card img{
+    max-width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .carousel-item img {
+        width: 80%;
+        padding-left: 20%;
+    }
+
+    .container-info {
+        margin-top: 10%;
+        padding-left: 10%;
+        margin-right: 18%;
+        margin-bottom: 10%;
+    }
+    .img-circle{
+        display:none;
+
+    }
+   .card-text{
+        font-size: 10px;
+        white-space: nowrap;      
+   }
+}
+#sobre{
+    padding-top: 10px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-header-container {
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 0;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+img.img-circle {
+    width: 100%;
+    height: 100%;
+}
+
+.fa {
+    color: white;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.footertext {
+    margin-top: 15px;
+    align-self: center;
+    color: #000000;
+}
+.barraPesquisa{
+    width:20%;
+}
+
+#entrevistas{
+    margin-bottom: 3%;
+}
+#destaques{
+    padding: 10px;
+    
+}
+#divFilmes{
+   
+    width: 100% ;
+}
+.botaoDestaque{
+    background-color: red;
+    border-color: red;
+    margin-bottom: 20px;
+}
+#logo{
+    max-width: 100%;
+}
+.footer-basic {
+    padding:10px 0;
+    background-color:black;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+.novidades{
+    text-align: left;
+}
+

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black !important ;
+}
+#filmes{
+    background-color: black !important;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 500px;
+    
+    text-align: justify;
+    
+    
+}
+#filmeImg{
+    border-radius: 20px;
+    padding: 0px 10px 10px 10px;
+    
+}
+.barraPesquisa{
+    max-width: 25%;
+}
+#logo{
+    border-radius:10px;
+}
+.footertext{
+    color: white;
+}
+.header nav{
+    background-color: #000000 !important;
+    
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+#descricao{
+  
+    color: white;
+}
+
+
+

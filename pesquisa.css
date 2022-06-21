@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: black !important ;
+}
+#filmes{
+    background-color: black !important;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 500px;
+    
+    text-align: justify;
+    
+    
+}
+#filmeImg{
+    border-radius: 20px;
+    padding: 0px 10px 10px 10px;
+    
+}
+.barraPesquisa{
+    max-width: 25%;
+}
+#logo{
+    border-radius:10px;
+}
+.footertext{
+    color: white;
+}
+.header nav{
+    background-color: #000000 !important;
+    
+}
+.botaoDestaque{
+    background-color: red;
+    border-color: red;
+    margin-bottom: 20px;
+}
+
+
