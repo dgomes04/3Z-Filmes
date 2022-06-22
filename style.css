@@ -249,9 +249,16 @@ img.img-circle {
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+
   }
 
 .novidades{
-    text-align: left;
+    margin-left: 25px;
 }
-
+#filmes{
+   float: left;
+   
+}
+#filmemf{
+    margin-left: 300px !important;
+}

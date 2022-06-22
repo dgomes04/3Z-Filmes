@@ -1,6 +1,4 @@
-const dadosFilmes = {
 
-}
   
 const montaFilmes = (data) =>{
   let dadosHTML = '';
@@ -36,4 +34,4 @@ const init = () =>{
   
 }
 
-document.body.onload = init();
+document.onload = init();

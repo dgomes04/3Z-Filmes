@@ -22,7 +22,7 @@ const mostraFilmes = (data) =>{
     let dataCorreta = JSON.parse(datat)
     dadosHTML += `
     <div id="imagem" style="float:left;">
-    <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}"style="width:90%;" >
+    <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}"style="width:90%; border-radius:10px;" >
     </div>
     <div id="descricao" >
     <h1>${filme.title}</h1>
